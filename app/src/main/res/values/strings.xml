@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">LuckyBet</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_password">Hasło</string>
+    <string name="txt_email">E-mail</string>
+    <string name="txt_fname">Imię</string>
+    <string name="txt_lname">Nazwisko</string>
+    <string name="txt_phone">Nr. Telefonu</string>
+    <string name="txt_btn_login">Zaloguj</string>
+    <string name="txt_btn_register">Zarejestruj</string>
+    <string name="txt_btn_back">Powrót</string>
+    <string name="lbl_register">Nie masz konta? Kliknij przycisk poniżej.</string>
+    <string name="lbl_invalidlogin">Nieprawidłowa nazwa użytkownika.</string>
+    <string name="lbl_invalidpwd">Nieprawidłowe hasło.</string>
+    <string name="lbl_emptyinput">Proszę uzupełnić wszystkie pola.</string>
+    <string name="lbl_registersuccess">Pomyślnie zarejestrowano.</string>
+    <string name="lbl_btnadd">Dodaj Saldo.</string>
+    <string name="lbl_balance">Saldo:</string>
+    <string name="lbl_invalidDeposit">Brak możliwości wpłaty środków.</string>
+    <string name="lbl_invalidWithdraw">Aktualnie nie ma możliwości wypłaty środków z konta gracza.</string>
+
+    <!-- Activity: Account -->
+    <string name="txt_alogin">Nazwa użytkownika:</string>
+    <string name="txt_aemail">Adres e-mail:</string>
+    <string name="txt_afname">Imię:</string>
+    <string name="txt_alname">Nazwisko:</string>
+    <string name="txt_aphone">Nr. Telefonu:</string>
+
+    <!-- Activity: Matches -->
+    <string name="txt_bet">Postaw Zakład</string>
+    <string name="txt_lblstake">Stawka</string>
+    <string name="txt_lblstaketag">Zł</string>
+    <string name="txt_emptystake">Nie podano stawki.</string>
+    <string name="txt_toohigstake">Podana stawka jest wieksza niz aktualne saldo konta.</string>
+    <string name="txt_tie">Remis</string>
+    <string name="txt_couponsuceeded">Pomyślnie zatwierdzono zakład.</string>
+
+    <!-- Activity: Bet -->
+    <string name="txt_status">Kupon aktywyny</string>
+    <string name="txt_statususer">Status/id</string>
+    <string name="txt_game">Home/Away</string>
+    <string name="txt_selected">Typ</string>
+    <string name="txt_multistake">Kurs/Stawka</string>
+    <string name="txt_towin">Do Wygrania</string>
+
+
+
+    <color name="green">#017028</color>
+    <color name="yellow">#FFFC00</color>
+</resources>

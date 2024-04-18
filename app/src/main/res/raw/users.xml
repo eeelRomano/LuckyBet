@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Users>
+    <User>
+        <login>admin</login>
+        <password>admin</password>
+        <email>admin@luckybet.pl</email>
+        <firstname>Admin</firstname>
+        <lastname>Admin</lastname>
+        <phone>123456789</phone>
+    </User>
+    <User>
+        <login>czesio</login>
+        <password>czesio</password>
+        <email>czeesio@luckybet.pl</email>
+        <firstname>Zbigniew</firstname>
+        <lastname>Zarski</lastname>
+        <phone>123456789</phone>
+    </User>
+    <User>
+        <login>johnny</login>
+        <password>johnny</password>
+        <email>johnny@luckybet.pl</email>
+        <firstname>Jan</firstname>
+        <lastname>Hapka</lastname>
+        <phone>123456789</phone>
+    </User>
+</Users>
