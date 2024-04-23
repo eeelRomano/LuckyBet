@@ -80,8 +80,6 @@ public class Registerform extends Activity {
             //deserializacja
             List<User> users = UserXmlParser.parse(file);
 
-            //walidacja nowego uzytkownika
-
             //Nowy uzytkownik
             users.add(user);
 

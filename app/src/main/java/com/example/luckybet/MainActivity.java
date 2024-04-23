@@ -42,11 +42,11 @@ public class MainActivity extends AppCompatActivity {
         CreateCoupon(coupon);
 
         //testy
-        tbx_login.setText("johnny");
-        tbx_password.setText("johnny");
-        String login = tbx_login.getText().toString();
-        String password = tbx_password.getText().toString();
-        Authorize(login, password);
+        //tbx_login.setText("johnny");
+        //tbx_password.setText("johnny");
+        //String login = tbx_login.getText().toString();
+        //String password = tbx_password.getText().toString();
+        //Authorize(login, password);
 
         //login enterem
         tbx_password.setOnKeyListener(new View.OnKeyListener() {
@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
                     String login = tbx_login.getText().toString();
                     String password = tbx_password.getText().toString();
                     Authorize(login, password);
+                    tbx_login.setText("");
+                    tbx_password.setText("");
                     return true;
                 }
                 return false;
@@ -70,6 +72,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String login = tbx_login.getText().toString();
                 String password = tbx_password.getText().toString();
+                tbx_login.setText("");
+                tbx_password.setText("");
                 Authorize(login, password);
             }
         });

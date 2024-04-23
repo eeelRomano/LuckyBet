@@ -147,7 +147,7 @@ public class Bet extends Activity {
             txt_multistake.setText(R.string.txt_multistake);
             bet.addView(txt_multistake);
 
-            txt_towin.setPadding(1200,0,0,0);
+            txt_towin.setPadding(1150,0,0,0);
             txt_towin.setText(R.string.txt_towin);
             bet.addView(txt_towin);
 

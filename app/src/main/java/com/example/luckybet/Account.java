@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -23,8 +24,10 @@ public class Account extends Activity {
         TextView lname = (TextView) findViewById(R.id.lbl_aalname);
         TextView phone = (TextView) findViewById(R.id.lbl_aphone);
 
-        //navi dolne
+        //navi gorne
         ImageButton btn_addbalance = (ImageButton) findViewById(R.id.btn_addbalance);
+
+        //navi dolne
         ImageButton btn_account = (ImageButton) findViewById(R.id.btn_account);
         ImageButton btn_withdraw = (ImageButton) findViewById(R.id.btn_withdraw);
         ImageButton btn_matches = (ImageButton) findViewById(R.id.btn_matches);
@@ -45,17 +48,27 @@ public class Account extends Activity {
         lname.setText(userl.getLname());
         phone.setText(userl.getPhone());
 
+        Button btn_signout = (Button) findViewById(R.id.btn_signout);
+
         //testy
-        finish();
-        Intent intent = new Intent(Account.this, Matches.class);
-        intent.putExtra("loggeduser", userl);
-        startActivity(intent);
+        //finish();
+        //Intent intent = new Intent(Account.this, Matches.class);
+        //intent.putExtra("loggeduser", userl);
+        //startActivity(intent);
 
         //btn dodaj saldo
         btn_addbalance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Account.this, R.string.lbl_invalidDeposit, Toast.LENGTH_LONG).show();
+            }
+        });
+
+        //btn wyloguj sie
+        btn_signout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
             }
         });
 

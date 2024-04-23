@@ -25,6 +25,7 @@
     <string name="txt_afname">Imię:</string>
     <string name="txt_alname">Nazwisko:</string>
     <string name="txt_aphone">Nr. Telefonu:</string>
+    <string name="txt_signout">Wyloguj się</string>
 
     <!-- Activity: Matches -->
     <string name="txt_bet">Postaw Zakład</string>
@@ -38,10 +39,10 @@
     <!-- Activity: Bet -->
     <string name="txt_status">Kupon aktywyny</string>
     <string name="txt_statususer">Status/id</string>
-    <string name="txt_game">Home/Away</string>
+    <string name="txt_game">VS</string>
     <string name="txt_selected">Typ</string>
-    <string name="txt_multistake">Kurs/Stawka</string>
-    <string name="txt_towin">Do Wygrania</string>
+    <string name="txt_multistake">Kurs</string>
+    <string name="txt_towin">Możliwe</string>
 
 
 
